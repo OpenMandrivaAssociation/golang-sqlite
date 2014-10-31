@@ -1,13 +1,12 @@
 %define prerelease 74691fb6f83716190870cde1b658538dd4b18eb0
 %define import_path code.google.com/p/gosqlite
-%define gopath %{_libdir}/golang
-%define gosrc %{gopath}/src/pkg/%{import_path}
+%define gosrc %{go_dir}/src/pkg/%{import_path}
 %define shortcommit %(c=%{prerelease}; echo ${c:0:12})
 
 Summary:	Trivial sqlite3 binding for Go
 Name:		golang-sqlite
 Version:	0.1.git%{shortcommit}
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Other
 Url:		http://gosqlite.googlecode.com
