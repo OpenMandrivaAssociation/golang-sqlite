@@ -6,7 +6,7 @@
 Summary:	Trivial sqlite3 binding for Go
 Name:		golang-sqlite
 Version:	0.1.git%{shortcommit}
-Release:	4
+Release:	5
 License:	BSD
 Group:		Development/Other
 Url:		http://gosqlite.googlecode.com
