@@ -9,7 +9,7 @@ Version:	0.1.git%{shortcommit}
 Release:	6
 License:	BSD
 Group:		Development/Other
-Url:		http://gosqlite.googlecode.com
+Url:		https://gosqlite.googlecode.com
 Source0:	http://gosqlite.googlecode.com/archive/%{prerelease}.zip
 Provides:       golang(%{import_path}) = %{version}-%{release}
 Provides:       golang(%{import_path}/sqlite) = %{version}-%{release}
